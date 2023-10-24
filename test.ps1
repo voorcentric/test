@@ -1,2 +1,4 @@
 Get-Service -Name 'Spooler'
-Start-Service
+Start-Service -Name 'spooler'
+
+Get-Acl
